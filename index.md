@@ -1,9 +1,3 @@
----
-layout: default
-title: Brainshin Study Notes
-description: GitHub, Vibe, Codex, Cloud 공부 내용을 정리하는 개인 기술 노트입니다.
----
-
 # 공부한 내용을 오래 남기는 기술 노트
 
 GitHub, Vibe, Codex, Cloud 실습 내용을 주제별로 정리합니다. 명령어, 설정 파일, 실수했던 에러와 해결 과정을 다시 찾기 쉽게 모아둡니다.
