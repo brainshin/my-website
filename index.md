@@ -1,5 +1,5 @@
 ---
-layout: null
+layout: default
 title: Brainshin Study Notes
 description: GitHub, Vibe, Codex, Cloud 공부 내용을 정리하는 개인 기술 노트입니다.
 ---
