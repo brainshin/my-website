@@ -1,14 +1,10 @@
 ---
+layout: null
+title: Brainshin Study Notes
+description: GitHub, Vibe, Codex, Cloud 공부 내용을 정리하는 개인 기술 노트입니다.
 ---
 
-<!DOCTYPE html>
-<html lang="ko">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Brainshin Study Notes</title>
-  <meta name="description" content="GitHub, Vibe, Codex, Cloud 공부 내용을 정리하는 개인 기술 노트입니다.">
-  <style>
+<style>
     :root {
       color-scheme: light;
       --bg: #f6f4ee;
@@ -400,8 +396,6 @@
       }
     }
   </style>
-</head>
-<body>
   <header class="site-header">
     <nav class="nav" aria-label="메인 메뉴">
       <a class="brand" href="./">
@@ -546,5 +540,3 @@
   <footer class="footer">
     <div class="container">© 2026 Brainshin. Built with GitHub Pages.</div>
   </footer>
-</body>
-</html>
