@@ -15,6 +15,49 @@ GitHub, Vibe, Codex, Cloud 실습 내용을 주제별로 정리합니다. 명령
 | Codex 가이드 | AI와 코드 작업하는 방식 정리 | 수정 요청, 검증, commit, push | 작성 중 |
 | Terraform 가이드 | IaC 실습과 에러 해결 과정 정리 | variable, module, remote state, plan 에러 | 작성 예정 |
 
+## 접이식 내용 샘플
+
+아래처럼 `details`와 `summary`를 사용하면 필요한 내용만 펼쳐서 볼 수 있습니다.
+
+<details>
+<summary>GitHub Pages 배포 체크리스트 펼치기</summary>
+
+### 배포 전 확인
+
+- `index.html` 또는 `index.md`가 저장소 루트에 있는지 확인
+- 변경 파일을 `git status`로 확인
+- commit 메시지를 짧고 명확하게 작성
+- `main` 브랜치에 push
+- GitHub Actions의 Pages 배포 결과가 `success`인지 확인
+
+```bash
+git status
+git add .
+git commit -m "Update study notes"
+git push origin main
+```
+
+</details>
+
+<details>
+<summary>Terraform 에러 기록 예시 펼치기</summary>
+
+### 에러 원문
+
+```text
+Error: Reference to undeclared resource
+```
+
+### 정리 방식
+
+| 항목 | 내용 |
+| --- | --- |
+| 원인 | 선언되지 않은 리소스 이름을 참조함 |
+| 확인 위치 | `.tf` 파일의 resource 이름과 참조 이름 |
+| 해결 | 선언 이름과 참조 이름을 동일하게 수정 |
+
+</details>
+
 ## 전체 흐름
 
 아래 그림은 이 사이트에서 문서를 정리하는 기본 흐름입니다. 이미지는 `assets/diagrams/` 디렉터리에 따로 두고 Markdown에서 상대 경로로 불러옵니다.
